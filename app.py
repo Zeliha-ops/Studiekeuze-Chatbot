@@ -12,11 +12,12 @@ from pydantic import BaseModel, Field
 # =====================================================
 
 st.set_page_config(
-    st.image("logo.png", width=150),
     page_title="Studiekeuze Coach",
     page_icon="🎓",
     layout="centered"
 )
+
+st.image("logo.png", width=150)
 
 MODEL = "openai/gpt-oss-20b"
 
