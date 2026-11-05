@@ -12,6 +12,7 @@ from pydantic import BaseModel, Field
 # =====================================================
 
 st.set_page_config(
+    st.image("logo.png", width=150),
     page_title="Studiekeuze Coach",
     page_icon="🎓",
     layout="centered"
@@ -84,7 +85,8 @@ GESPREKSREGELS:
 11. Gebruik begrijpelijk Nederlands.
 12. Wees positief, geduldig en niet-oordelend.
 13. Geef de leerling ruimte om twijfels te uiten.
-14. Stel altijd een vervolgvraag
+14. Stel in ieder antwoord dat je geeft een vraag
+15. Wanneer je merkt dat je steeds met dezelfde vragen of opmerkingen reageert, begin over een nieuw onderwerp.
 
 ONDERWERPEN DIE JE ONDERZOEKT:
 
@@ -141,7 +143,13 @@ stel dan een gerichte vervolgvraag.
 Geef geen studiekeuzeadvies voordat er voldoende
 informatie beschikbaar is.
 
-Als de gebruiker over een ander onderwerp begint te vertellen, leid ze vriendelijk terug naar een gesprek over hun studiekeuze
+Als de gebruiker over een ander onderwerp begint te vertellen, leid ze vriendelijk terug naar een gesprek over hun studiekeuze.
+
+Houd je aan alle gespreksregels bij elk antwoord die je geeft.
+
+Wanneer de gebruiker een antwoord heeft gegeven op een specifieke vraag dient deze vraag nergens in het gesprek opnieuw gesteld te worden.
+
+
 
 LENGTE VAN ANTWOORDEN:
 
